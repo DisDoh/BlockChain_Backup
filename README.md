@@ -1,6 +1,3 @@
-# Create a README.md file with the provided content
-
-readme_content = """
 # Blockchain Application
 
 This is a Kivy-based blockchain application for managing files, users, and access permissions. The application supports creating a blockchain, registering users, adding files to the blockchain, searching files, backing up the blockchain, and granting permissions.
