@@ -24,6 +24,6 @@ This is a Kivy-based blockchain application for managing files, users, and acces
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-repo/blockchain-app.git
+   git clone https://github.com/DisDoh/BlockChain_Backup.git
    cd blockchain-app
 
