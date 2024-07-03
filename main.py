@@ -566,7 +566,8 @@ class BlockchainApp(App):
         if not blockchain_name:
             self.show_popup("Error", "Blockchain name cannot be empty.")
             return
-
+        if not hasattr(self, 'file_blockchain'):
+            self.initialize_blockchains(blockchain_name)
         backup_dir = 'file_blockchain' # Directory where backup blocks are stored
         self.file_blockchain.blockchain_name = blockchain_name
         self.access_blockchain.blockchain_name = blockchain_name
